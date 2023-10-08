@@ -7,6 +7,7 @@ class UserModel {
   String levelUpPoints;
   String completion;
   String discription;
+  String bgImage;
 
   UserModel({
     required this.name,
@@ -17,5 +18,6 @@ class UserModel {
     required this.completion,
     required this.points,
     required this.discription,
+    required this.bgImage,
   });
 }
