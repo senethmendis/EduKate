@@ -1,0 +1,27 @@
+Padding(
+      padding: const EdgeInsets.only(right: 10),
+      child: Container(
+        width: 70,
+        height: 70,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(25),
+            border: Border.all(color: Colors.red, width: 3)),
+        child: Padding(
+          padding: const EdgeInsets.all(3),
+          child: Center(
+            child: Container(
+              width: 65,
+              height: 65,
+              decoration: BoxDecoration(
+                color: Colors.amber,
+                borderRadius: BorderRadius.circular(20),
+                image: const DecorationImage(image: NetworkImage("")),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+
+
+    
